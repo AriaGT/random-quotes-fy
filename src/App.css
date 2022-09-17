@@ -1,0 +1,72 @@
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page__tittle {
+  position: absolute;
+  transform: translateY(-150px);
+  color: #eee4ec;
+  text-shadow: 0 1px 6px black;
+  font-weight: bold;
+}
+
+.quote__box {
+  background-color: #eee4ec;
+  padding: 4px 16px;
+  box-shadow: 0 1px 6px black;
+  width: 520px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.quote__box__quote {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.quote__box__quote__mark {
+  font-size: 4em;
+}
+
+.quote__box__quote__quote {
+  margin-top: .5em;
+  text-align: center;
+  justify-self: center;
+  width: 432px;
+}
+
+.quote__box__author {
+  font-style: italic;
+}
+
+.quote__box__button {
+  cursor: pointer;
+  font-size: 18px;
+  color: #eee4ec;
+  justify-self: end;
+  border-radius: 50%;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+  border: none;
+  width: 3em;
+  margin: .8em;
+  aspect-ratio: 1;
+}
+
+.quote__box__button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
